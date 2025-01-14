@@ -126,6 +126,10 @@ h3{
     padding: 5px;
 }
 
+.container_inline p{
+    color: #a1a1a1;
+}
+
 /* 画像をすべて同じエリアに配置 */
 .slides {
     display: flex;
