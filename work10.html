@@ -1,38 +1,62 @@
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <title>作品詳細</title>
     <link rel="stylesheet" href="CSS/styles2.css">
     <script src="JS/script2.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>作品詳細</h1>
+        <div class="container">
+          <h1>PORTFOLIO</h1>
+          <nav>
+            <ul>
+              <li><a href="work9.html">BACK</a></li>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="work11.html">NEXT</a></li>
+            </ul>
+          </nav>
+        </div>
     </header>
     <main>
+        <div class="container_inline">
+            <h2 class="inline-block">作品詳細</h2>
+            <p class="inline-block">Details</p>
+        </div>
         <div class="slider">
             <div class="slides">
                 <img src="images/youtube.png" alt="作品1の画像">
-                <img src="images/youtube_header.png" alt="作品2の画像">
+                <img src="images/youtube_header.png" alt="作品1の画像">
             </div>
             <button class="prev">&#10094;</button>
             <button class="next">&#10095;</button>
         </div>
         
-        <p id="description" class="box">こちらはビデオクリエイター向けのロゴになります。ビデオフィルムと再生ボタンをイメージし、組み合わせたロゴにしました。</p>
-        <ul>
-            <li><strong>作品の種類:</strong> Webデザイン</li>
-            <li><strong>制作時間:</strong> 約20時間</li>
-            <li><strong>制作ツール:</strong> Photoshop, Figma</li>
-            <li class="tool-icons">
-                <img src="photoshop-icon.png" alt="Photoshop">
-                <img src="figma-icon.png" alt="Figma">
-            </li>
-        </ul>
+        <p id="description" class="box">こちらはビデオクリエイター向けのアイコン、ヘッダーになります。ビデオフィルムと再生ボタンをイメージし、組み合わせた作品にしました。</p>
+        <div class="container_inline">
+            <h2 class="inline-block">制作概要</h2>
+            <p class="inline-block">Production Outline</p>
+        </div>
+        <div class="container_Pro">
+            <h3>種類</h3>
+            <p>アイコン、SNS用ヘッダー</p>
+            <h3>制作期間</h3>
+            <p>２時間</p>
+            <h3>工夫点</h3>
+            <p>再生ボタンだけだとたくさん関連する作品があるため、あえて一昔前のフィルムを連想させる物を組み込むことで通常の再生ボタンだけよりもおしゃれな感じに仕上げました。</p>
+            <h3>制作ツール</h3>
+            <div class="toul">
+                <img src="images/AI.png" alt="イラストレーターアイコン">
+                <img src="images/NOPS.png" alt="フォトショップアイコン">
+                <img src="images/NOFG.png" alt="フィグマアイコン">
+            </div>
+        </div>
     </main>
-    <a href="work9.html">BACK</a>
-    <a href="index.html">HOME</a>
-    <a href="work11.html">NEXT</a>
 </body>
 </html>
