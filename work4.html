@@ -1,16 +1,34 @@
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <title>作品詳細</title>
     <link rel="stylesheet" href="CSS/styles2.css">
     <script src="JS/script2.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>作品詳細</h1>
+        <div class="container">
+          <h1>PORTFOLIO</h1>
+          <nav>
+            <ul>
+              <li><a href="work3.html">BACK</a></li>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="work5.html">NEXT</a></li>
+            </ul>
+          </nav>
+        </div>
     </header>
     <main>
+        <div class="container_inline">
+            <h2 class="inline-block">作品詳細</h2>
+            <p class="inline-block">Details</p>
+        </div>
         <div class="slider">
             <div class="slides">
                 <img src="images/poster_main.png" alt="作品1の画像">
@@ -19,19 +37,25 @@
             <button class="next">&#10095;</button>
         </div>
         
-        <p id="description" class="box">こちらの作品は岩盤浴のポスターの再デザインになります。石をイメージした背景と「自然とおしゃれ」な雰囲気をイメージして制作しました。また、元のポスターにマップがなく場所がわかりずらかったため、マップとスマホからアクセスしやすいようにQRコードの表記を追加しました。</p>
-        <ul>
-            <li><strong>作品の種類:</strong> Webデザイン</li>
-            <li><strong>制作時間:</strong> 約20時間</li>
-            <li><strong>制作ツール:</strong> Photoshop, Figma</li>
-            <li class="tool-icons">
-                <img src="photoshop-icon.png" alt="Photoshop">
-                <img src="figma-icon.png" alt="Figma">
-            </li>
-        </ul>
+        <p id="description" class="box">こちらの作品は岩盤浴のポスターの再デザインになります。石をイメージした背景と「自然とおしゃれ」な雰囲気をイメージして制作しました。</p>
+        <div class="container_inline">
+            <h2 class="inline-block">制作概要</h2>
+            <p class="inline-block">Production Outline</p>
+        </div>
+        <div class="container_Pro">
+            <h3>種類</h3>
+            <p>A4ポスター</p>
+            <h3>制作期間</h3>
+            <p>４時間</p>
+            <h3>工夫点</h3>
+            <p>元のポスターに比べて全体的に明るいイメージにすることによって全体的に見やすくしました。岩盤浴にちなんで石のような背景に色をつけることでおしゃれなポスターにしました。また、元のポスターにマップがなく場所がわかりずらかったため、マップとスマホからアクセスしやすいようにQRコードの表記を追加しました。</p>
+            <h3>制作ツール</h3>
+            <div class="toul">
+                <img src="images/AI.png" alt="イラストレーターアイコン">
+                <img src="images/PS.png" alt="フォトショップアイコン">
+                <img src="images/NOFG.png" alt="フィグマアイコン">
+            </div>
+        </div>
     </main>
-    <a href="work3.html">BACK</a>
-    <a href="index.html">HOME</a>
-    <a href="work5.html">NEXT</a>
 </body>
 </html>
