@@ -23,8 +23,14 @@ body {
     margin: 50px auto;
 }
 
+
+
 .valuation{
   text-align: center;
+}
+
+.valuation p{
+  font-size: 1.2em;
 }
 
 /* ヘッダー */
