@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <title>作品詳細</title>
+    <link rel="stylesheet" href="CSS/styles2.css">
+    <script src="JS/script2.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <h1>PORTFOLIO</h1>
+          <nav>
+            <ul>
+              <li><a href="work12.html">BACK</a></li>
+              <li><a href="index.html#work">WORK LIST</a></li>
+              <li><a href="work14.html">NEXT</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container_inline">
+            <h2 class="inline-block">作品詳細</h2>
+            <p class="inline-block">Details</p>
+        </div>
+        <div class="slider">
+            <div class="slides">
+                <img src="images/point.png" alt="作品1の画像">
+                <img src="images/point2.png" alt="作品2の画像">
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+        
+        <p id="description" class="box">架空のポイントプレゼントキャンペーンのバナーになります。</p>
+        <div class="container_inline">
+            <h2 class="inline-block">制作概要</h2>
+            <p class="inline-block">Production Outline</p>
+        </div>
+        <div class="container_Pro">
+            <h3>種類</h3>
+            <p>Webサイト</p>
+            <h3>制作期間</h3>
+            <p>1時間</p>
+            <h3>工夫点</h3>
+            <p>架空のポイントプレゼントキャンペーンのバナーになります。全体的に暖色を使い、明るい雰囲気を演出しました。また、5000ポイントに目が行くように大き目に配置し、背景を放射状にして目線を集める工夫をしました。</p>
+            <h3>制作ツール</h3>
+            <div class="toul">
+                <img src="images/AI.png" alt="イラストレーターアイコン">
+                <img src="images/NOPS.png" alt="フォトショップアイコン">
+                <img src="images/NOFG.png" alt="フィグマアイコン">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
