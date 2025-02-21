@@ -39,9 +39,9 @@ header {
     justify-content: space-between;
   }
   
-  header h1 {
-    font-size: 2.5em;
-  }
+  .logo img {
+  width: 250px;
+　}
   
   header nav ul {
     list-style: none;
