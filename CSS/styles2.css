@@ -92,7 +92,7 @@ main img {
     overflow: hidden;
 }
 
-.container_Pro {
+#containerPro {
     width: 50%;
     margin: 0 auto;
 }
