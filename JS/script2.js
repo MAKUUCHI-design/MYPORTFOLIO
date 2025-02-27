@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const description = document.getElementById("description");
     const prevButton = document.querySelector(".prev");
     const nextButton = document.querySelector(".next");
-    const containerPro = document.querySelector(".container_Pro"); // 制作概要のコンテナ
+    const containerPro = document.querySelector("containerPro"); // 制作概要のコンテナ
 
     // 各スライドに対応する説明文と制作概要をページごとに用意
     const descriptionsByPage = {
