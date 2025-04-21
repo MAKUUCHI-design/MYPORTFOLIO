@@ -9,75 +9,105 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 各スライドに対応する説明文と制作概要をページごとに用意
     const descriptionsByPage = {
-        "work1.html":[
+        "work1.html": [
+            "メディア系のバナーを作成しました。動画配信サイトにて歌手をメインとして取り上げた番組のバナーになります。"
+        ]
+        "work2.html": [
+            "メディア系のバナーになります。配信サイトにて歌手のライブの配信を予告するバナーになります。"
+        ]
+        "work3.html": [
+            "メディア系のバナーになります。サッカーの試合を全試合生中継を想定して作ったバナーになります。"
+        ]
+        "work4.html":[
             "1つ目はトレースになります。美容系のクリニックバナーを制作しました。1つ目以降はInstagramに広告を載せる前提でリサイズしたものになります。",
             "4：5のリサイズになります。内容の可読性を上げるために繋がっている情報の配置を考えました。",
             "9：16のリサイズになります。リサイズの中でも一番縦長のバナーです。",
             "1.91:1のリサイズになります。「15％OFF」の強調のさせ方や配置をこだわりました。",
             "16：9のリサイズになります。こちらは1.91:1のリサイズを調節した形にしました。"
         ],
-        "work2.html": [
+        "work5.html": [
             "自社の人材バナーになります。堅い雰囲気を持たせないようなバナーを心がけた作品です。",
             "自社の人材バナー２枚目になります。1枚目とは違いスタイリッシュなバナーをイメージして仕上げた作品です。"
         ],
-        "work3.html": [
+        "work6.html": [
             "フィットネスのバナーになります。女性らしさをイメージした作品になります。",
             "フィットネスのバナー２枚目になります。可読性をよくすることとスマートさを意識した作品になります。",
             "フィットネスのバナー３枚目になります。他のバナーとは違いポップなイメージの作品です。"
         ],
-        "work4.html": [
+        "work7.html": [
             "架空のポイントプレゼントキャンペーンのバナーになります。ポイントに目が行くように作成した作品です。",
             "架空のポイントプレゼントキャンペーンのバナーの２枚目になります。見たときのインパクトと楽しさをイメージした作品になります。"
         ],
-        "work5.html": [
+        "work8.html": [
             "健康食品のバナーになります。ターゲット層から注目を集めることを意識した作品です。",
             "健康食品のバナー２枚目になります。価格に目が行くようにした作品です。"
         ],
-        "work6.html": [
+        "work9.html": [
             "１つ目はトレースの作品になります。キャンペーンバナーをトレースしました。",
             "トレース作品２枚目になります。ターゲットを絞った配色にしました。",
             "トレース作品３枚目になります。期間に着目して配色しました。",
             "トレース作品４枚目になります。アクセントを意識して配色しました。",
             "トレース作品５枚目になります。シンプルさと可読性を意識して配色しました。"
         ],
-        "work7.html": [
+        "work10.html": [
             "１つ目はトレースになります。家具、インテリアショップの再デザインバナーを制作しました。",
             "１枚目の再デザイン案になります。さわやかさをイメージした作品になります。",
             "１枚目の再デザイン案２枚目になります。お客様が商品をイメージしやすいような作品にしました。",
             "１枚目の再デザイン案３枚目になります。重要な情報に目が行くような作品にしました。"
         ],
-        "work8.html": [
+        "work11.html": [
             "岩盤浴のポスターの再デザインになります。自然とおしゃれの２つの雰囲気を感じられるような作品にしました。"
         ],
-        "work9.html": [
+        "work12.html": [
             "転職サイトの広告バナーになります。インパクトを与えられるように意識した作品です。"
         ],
-        "work10.html": [
+        "work13.html": [
             "IT企業のロゴになります。"
         ],
-        "work11.html": [
+        "work14.html": [
             "化粧品会社のロゴになります。"
         ],
-        "work12.html": [
+        "work15.html": [
             "海外向けバーのロゴになります。"
         ],
-        "work13.html": [
+        "work16.html": [
             "チャリティバッグのロゴになります。"
         ],
-        "work14.html": [
+        "work17.html": [
             "ビデオクリエイター向けのロゴになります。",
             "SNS用のヘッダー画像になります。"
         ],
-        "work15.html": [
+        "work18.html": [
             "受付などで使用される録音の注意喚起バナーになります。海外の方でもわかりやすいバナーを意識した作品になります。"
         ],
-        "work16.html": [
+        "work19.html": [
             "現在ご覧になられているポートフォリオです。"
         ]
     };
 
     const productionDetailsByPage = {
         "work1.html": [
+            {
+                type: "バナー・広告",
+                duration: "人物切り抜き10分、制作2時間",
+                points: "紙を破ったようなデザインとネオン調の文字を背景に置き、全体的に目を引くようなデザインを意識しました。また、QRコードでサイトに遷移するように想定したデザインにすることでサイトまでたどり着きやすいような工夫をしました。",
+                tools: ["images/AI.png", "images/PS.png","images/NOFG.png"]
+            },
+            "work2.html": [
+            {
+                type: "バナー・広告",
+                duration: "人物切り抜き10分、制作1時間",
+                points: "人物含めすべてモノトーンで構成し、フォントや文字の強弱をつけ全体的なインパクトをつけたバナーにしました。日付やサイト名、クリックできるようにボタンを入れることで遷移を促しました。",
+                tools: ["images/AI.png", "images/PS.png","images/NOFG.png"]
+            },
+            "work3.html": [
+            {
+                type: "バナー・広告",
+                duration: "AI生成20分、人物切り抜き10分、制作2時間",
+                points: "気になるキャッチコピーや背景に勝利を意味するライオンをあしらいインパクトと勝利を意識したバナーにしました。また、青とオレンジを使用することでインパクトと見やすさを意識しました。",
+                tools: ["images/AI.png", "images/PS.png","images/NOFG.png"]
+            },
+            "work4.html": [
             {
                 type: "バナー・広告",
                 duration: "人物切り抜き30分、制作1時間",
@@ -109,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/NOAI.png", "images/PS.png","images/FG.png"]
             }
         ],
-        "work2.html": [
+        "work5.html": [
             {
                 type: "人材バナー・広告",
                 duration: "30分",
@@ -123,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/NOAI.png", "images/NOPS.png","images/FG.png"]
             }
         ],
-        "work3.html": [
+        "work6.html": [
             {
                 type: "フィットネスバナー・広告",
                 duration: "1時間、修正2時間",
@@ -143,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/PS.png","images/NOFG.png"]
             }
         ],
-        "work4.html": [
+        "work7.html": [
             {
                 type: "ポイントバナー・広告",
                 duration: "1時間",
@@ -157,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work5.html": [
+        "work8.html": [
             {
                 type: "健康食品バナー・広告",
                 duration: "素材切り抜き30分、制作1時間",
@@ -171,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work6.html": [
+        "work9.html": [
             {
                 type: "バナー・広告",
                 duration: "1時間",
@@ -203,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/NOAI.png", "images/NOPS.png","images/FG.png"]
             }
         ],
-        "work7.html": [
+        "work10.html": [
             {
                 type: "バナー・広告",
                 duration: "30分",
@@ -229,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/NOAI.png", "images/NOPS.png","images/FG.png"]
             }
         ],
-        "work8.html": [
+        "work11.html": [
             {
                 type: "A4ポスター",
                 duration: "4時間",
@@ -237,7 +267,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/PS.png","images/NOFG.png"]
             }
         ],
-        "work9.html": [
+        "work12.html": [
             {
                 type: "バナー・広告",
                 duration: "4時間",
@@ -245,7 +275,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work10.html": [
+        "work13.html": [
             {
                 type: "ロゴ",
                 duration: "4時間",
@@ -253,7 +283,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work11.html": [
+        "work14.html": [
             {
                 type: "ロゴ",
                 duration: "4時間",
@@ -261,7 +291,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work12.html": [
+        "work15.html": [
             {
                 type: "ロゴ",
                 duration: "3時間",
@@ -269,7 +299,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work13.html": [
+        "work16.html": [
             {
                 type: "ロゴ",
                 duration: "2時間、修正2時間",
@@ -277,7 +307,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work14.html": [
+        "work17.html": [
             {
                 type: "アイコン",
                 duration: "1時間",
@@ -291,7 +321,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work15.html": [
+        "work18.html": [
             {
                 type: "バナー",
                 duration: "3時間、修正1時間",
@@ -299,7 +329,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tools: ["images/AI.png", "images/NOPS.png","images/NOFG.png"]
             }
         ],
-        "work16.html": [
+        "work19.html": [
             {
                 type: "Webサイト",
                 duration: "2週間",
