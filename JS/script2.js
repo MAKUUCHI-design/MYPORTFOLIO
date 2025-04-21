@@ -92,21 +92,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 duration: "人物切り抜き10分、制作2時間",
                 points: "紙を破ったようなデザインとネオン調の文字を背景に置き、全体的に目を引くようなデザインを意識しました。また、QRコードでサイトに遷移するように想定したデザインにすることでサイトまでたどり着きやすいような工夫をしました。",
                 tools: ["images/AI.png", "images/PS.png","images/NOFG.png"]
-            },
+            }
+        ],
             "work2.html": [
             {
                 type: "バナー・広告",
                 duration: "人物切り抜き10分、制作1時間",
                 points: "人物含めすべてモノトーンで構成し、フォントや文字の強弱をつけ全体的なインパクトをつけたバナーにしました。日付やサイト名、クリックできるようにボタンを入れることで遷移を促しました。",
                 tools: ["images/AI.png", "images/PS.png","images/NOFG.png"]
-            },
+            }
+        ],
             "work3.html": [
             {
                 type: "バナー・広告",
                 duration: "AI生成20分、人物切り抜き10分、制作2時間",
                 points: "気になるキャッチコピーや背景に勝利を意味するライオンをあしらいインパクトと勝利を意識したバナーにしました。また、青とオレンジを使用することでインパクトと見やすさを意識しました。",
                 tools: ["images/AI.png", "images/PS.png","images/NOFG.png"]
-            },
+            }
+        ],
             "work4.html": [
             {
                 type: "バナー・広告",
