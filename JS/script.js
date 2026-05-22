@@ -14,6 +14,17 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
   }
 });
 
+// スキルバーの表示（data-level から幅を制御）
+document.querySelectorAll('.skill-item').forEach(item => {
+  const level = Number(item.dataset.level);
+  const fill = item.querySelector('.skill-bar-fill');
+  if (fill && level >= 0 && level <= 10) {
+    requestAnimationFrame(() => {
+      fill.style.width = `${level * 10}%`;
+    });
+  }
+});
+
 // スムーズスクロールの実装
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (event) {
