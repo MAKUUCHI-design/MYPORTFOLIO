@@ -69,6 +69,23 @@ body {
   transition: width 0.8s ease;
 }
 
+/* data-level からバー幅を制御 */
+.skill-item[data-level="1"] .skill-bar-fill { width: 10%; }
+.skill-item[data-level="2"] .skill-bar-fill { width: 20%; }
+.skill-item[data-level="3"] .skill-bar-fill { width: 30%; }
+.skill-item[data-level="4"] .skill-bar-fill { width: 40%; }
+.skill-item[data-level="5"] .skill-bar-fill { width: 50%; }
+.skill-item[data-level="6"] .skill-bar-fill { width: 60%; }
+.skill-item[data-level="7"] .skill-bar-fill { width: 70%; }
+.skill-item[data-level="8"] .skill-bar-fill { width: 80%; }
+.skill-item[data-level="9"] .skill-bar-fill { width: 90%; }
+.skill-item[data-level="10"] .skill-bar-fill { width: 100%; }
+
+/* JS有効時は読み込み後にアニメーション表示 */
+html.js .skill-list:not(.skills-ready) .skill-item .skill-bar-fill {
+  width: 0;
+}
+
 .skill-desc {
   width: 100%;
   margin: 8px 0 0;
